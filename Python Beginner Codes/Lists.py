@@ -1,0 +1,28 @@
+nums = [1,2,3,4,5,6,7,8,9]
+names = ["Salih", "Vahdet", "Derya", "Sema", "Hanife", "Selami"]
+names2 = names.copy()
+
+print(nums[0])
+print(nums[8])
+print(nums[-1])
+print(nums[-2])
+print(nums)
+print(nums[4:])
+print(nums[4:9])
+print(nums[4:7])
+
+print("names listesi: ", names)
+print("names2 listesi: ", names2)
+names.append("Ayşe")
+print(names)
+names.remove("Ayşe")
+print(names)
+names.reverse()
+print(names)
+names.sort()
+print(names)
+names.extend(nums)
+print(names)
+names.pop()
+names.pop()
+print(names)
